@@ -1,0 +1,25 @@
+{
+  "name": "fieg/graph-search",
+  "license": "MIT",
+  "description": "Implementation of Graph Search algorithm in PHP",
+  "type": "library",
+  "keywords": ["artificial", "intelligence", "search", "graph"],
+  "homepage": "https://github.com/fieg/graph-search",
+  "authors": [
+    {
+      "name": "fieg",
+      "email": "jeroen@webcreate.nl"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fieg\\GraphSearch\\": "src/Fieg/GraphSearch/"
+    }
+  }
+}
